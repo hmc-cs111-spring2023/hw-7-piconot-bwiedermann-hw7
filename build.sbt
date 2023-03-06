@@ -11,6 +11,7 @@ ThisBuild / scalacOptions ++= Seq(
 
 ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % Test
 ThisBuild / libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.15.4" % Test
+ThisBuild / libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.2.0"
 lazy val picolib = RootProject(
   uri("https://github.com/hmc-cs111-spring2023/picolib.git#no-graphics")
 )
